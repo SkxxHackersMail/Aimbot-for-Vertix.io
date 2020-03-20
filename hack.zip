@@ -51,7 +51,7 @@ drawMiniMapFPS = 0;
 
 //Loading Tips
 var element = document.createElement("div");
-element.appendChild(document.createTextNode('TIP: BLUE TITLE TEXT = OFF, RED TITLE TEXT = ON'));
+element.appendChild(document.createTextNode('TIP: RED TITLE TEXT = OFF, GREEN TITLE TEXT = ON'));
 document.getElementById('loadSpinner').appendChild(element);
 element.idName = "loadText2";
 
